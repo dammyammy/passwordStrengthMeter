@@ -33,8 +33,8 @@
             passwordInput: 'input[name=password]',
             userInputs: [],
             ratings: ["Very Weak", "Weak", "OK", "Strong", "Very Strong"],
-            allProgressBarClasses: "progress-bar-very-weak progress-bar-weak progress-bar-ok  progress-bar-strong  progress-bar-very-strong",
-            progressBarClasses: ["progress-bar-very-weak","progress-bar-weak","progress-bar-ok","progress-bar-strong","progress-bar-very-strong"],
+            allProgressBarClasses: "password-meter-very-weak password-meter-weak password-meter-ok  password-meter-strong  password-meter-very-strong",
+            progressBarClasses: ["password-meter-very-weak","password-meter-weak","password-meter-ok","password-meter-strong","password-meter-very-strong"],
         }, options);
 
         return this.each(function () {
