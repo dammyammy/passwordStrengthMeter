@@ -1,5 +1,10 @@
-# passwordStrengthMeter
+# Password Strength Meter
 A Simple Password Strength Meter Based On zxcvbn.js
+
+## Dependencies
+- jQuery 1.7+
+
+** No need to Pull in zxcvbn.js as the plugin pulls it in, by default, hence the reason for the large file size.**
 
 ## Usage
 
