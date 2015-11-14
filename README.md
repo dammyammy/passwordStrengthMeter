@@ -34,8 +34,15 @@ A Simple Password Strength Meter Based On zxcvbn.js
 
 ```javascript
 $(function() {
+
+ var $userInputs = [
+    $('input[name=email]').val(),
+    $('input[name=firstName]').val(),
+ ];
+ 
   $(".password-meter").passwordStrengthMeter({
       passwordInput: "input[name=password]",
+      userInputs: $userInputs,
       ratings: ["Very Weak", "Weak", "OK", "Strong", "Very Strong"],
       allProgressBarClasses: "password-meter-very-weak password-meter-weak password-meter-ok  password-meter-strong  password-meter-very-strong",
       progressBarClasses: ["password-meter-very-weak","password-meter-weak","password-meter-ok","password-meter-strong","password-meter-very-strong"],
