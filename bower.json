@@ -9,7 +9,7 @@
     "jquery": "~1.10.0"
   },
   "moduleType": [
-    "globals",
+    "globals"
   ],
   "keywords": [
     "password",
@@ -20,8 +20,6 @@
     "Ogunmoye Damilola <dami@ogunmoye.com> (dami@ogunmoye.com)"
   ],
   "license": "MIT",
-  "ignore": [
-  ],
   "private": false,
   "repository": {
     "type": "git",
