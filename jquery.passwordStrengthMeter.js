@@ -60,7 +60,7 @@
             }
             else {
                 $(progressBar).css('width', '0%');
-                $(progressBar).removeClass(settings.allProgressBarClasses).addClass(settings.progressBarClasses[0]);
+                $(progressBar).removeClass(settings.allProgressBarClasses);
                 $(progressBar).html('');
             }
         }
